@@ -1,0 +1,19 @@
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import Features from '../components/Features'
+import ProductGrid from '../components/ProductGrid'
+import Footer from '../components/Footer'
+
+export default function Home(){
+  return (
+    <div className="bg-slate-950 min-h-screen">
+      <Navbar />
+      <main>
+        <Hero />
+        <Features />
+        <ProductGrid />
+      </main>
+      <Footer />
+    </div>
+  )
+}
